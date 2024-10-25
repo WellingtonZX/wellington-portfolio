@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Trainify </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css" />
+</head>
+<body>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content ">
+                <div class="modal-header border-0">
+                    <h1 class="modal-title fs-5 text-center w-100" id="exampleModalLabel"> Trainify </h1>
+                </div>
+                
+                <div class="modal-body" >
+                    <div id="carouselExample" class="carousel slide pb-5 m-3" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active" data-bs-interval="5000">
+                            <img src="../../assets/img/trainify-carousel.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item" data-bs-interval="5000">
+                            <img src="../../assets/img/trainify1-carousel.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item" data-bs-interval="5000">
+                            <img src="../../assets/img/trainify2-carousel.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+    
+                    <li class="d-flex justify-content-start align-items-center">
+                        <svg class="svg-modal-list">
+                            <use xlink:href="assets/img/icons/list.svg#list"></use>
+                        </svg>
+                        Ferramentas : PHP, CSS, Bootstrap, jquery, MySQL, PostgreSQL.
+                    </li>
+                    <li class="d-flex justify-content-start align-items-center">
+                        <svg class="svg-modal-list">
+                            <use xlink:href="assets/img/icons/list.svg#list"></use>
+                        </svg>
+                        Minha Função : Desenvolvedor Web.
+                    </li>
+                    <li class="d-flex justify-content-start align-items-center">
+                        <svg class="svg-modal-list">
+                            <use xlink:href="assets/img/icons/list.svg#list"></use>
+                        </svg>
+                       Descrição : Prescrição de treinos para treinadores físicos.
+                    </li>
+    
+                </div>
+                <div class="modal-footer border-0">
+                    <a type="button" data-bs-toggle="modal"  class="btn">
+                        <svg class="svg-modal">
+                        <use xlink:href="assets/img/icons/close.svg#close">
+                            
+                        </use>
+                        <span class="tooltip"> Fechar </span>
+                    </svg>
+                </a>
+                    <button type="button" data-bs-toggle="tooltip" title="Visitar o site" class="btn" onclick="showAlert()">
+                        <svg class="svg-modal">
+                            <use xlink:href="assets/img/icons/external-link.svg#external-link">
+    
+                            </use>
+                            <span class="tooltip"> Ir para o site </span>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

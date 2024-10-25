@@ -1,0 +1,16 @@
+<svg  id="clickup" viewBox="0 0 88 106" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.115234 81.0197L16.166 68.7256C24.6895 79.8535 33.7411 84.9817 43.8274 84.9817C53.8579 84.9817 62.6607 79.9127 70.8022 68.8727L87.0741 80.8726C75.3356 96.7901 60.7314 105.2 43.8274 105.2C26.9795 105.2 12.2399 96.8492 0.115234 81.0197Z" fill="url(#paint0_linear)">
+    </path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M43.7764 27.5872L15.2086 52.2037L2.01074 36.8874L43.8332 0.849609L85.3305 36.9155L72.0677 52.1756L43.7764 27.5872Z" fill="url(#paint1_linear)">
+    </path>
+    <defs>
+        <linearGradient id="paint0_linear" x1="0.115234" y1="111.767" x2="87.0741" y2="111.767" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#8930FD"></stop>
+            <stop offset="1" stop-color="#49CCF9"></stop>
+        </linearGradient>
+        <linearGradient id="paint1_linear" x1="2.01074" y1="61.4504" x2="85.3305" y2="61.4504" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FF02F0"></stop>
+            <stop offset="1" stop-color="#FFC800"></stop>
+        </linearGradient>
+    </defs>
+ </svg>
