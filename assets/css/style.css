@@ -119,10 +119,6 @@ body {
     transform: scale(1.2);
 }
 
-/* .projects-section {
-    padding: 60px 0;
-} */
-
 .contact-section {
     padding: 60px 0 !important;
 }
@@ -240,23 +236,6 @@ body {
     inset 0 0 5px rgba(255, 255, 255, 0.5), 0 5px 5px rgba(0, 0, 0, 0.164) !important;
 }
 
-/* .icons {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    gap: 20px;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-}
-
-.icon {
-    font-size: 2rem;
-    color: #FFD700;
-    cursor: pointer;
-} */
-
 .img-projects:hover .icons {
     opacity: 1;
 }
@@ -286,20 +265,6 @@ footer {
     color: #fff;
     padding: 10px 0px;
 }
-
-/* footer .grid-layout {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-} */
-
-/* .grid-layout {
-    max-width: 1140px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
 
 footer div {
     display: flex;
@@ -682,7 +647,7 @@ gap: 30px;
 
     footer p span {
         display: block;
-        margin-top: 5px; /* adiciona um espaçamento opcional entre as linhas */
+        margin-top: 5px;
       }
 
       .border-animated::before {
@@ -691,8 +656,6 @@ gap: 30px;
         left: -50px;
         right: 0px;
         height: 60px;
-        /* bottom: 50%; */
-        /* transform: translateY(-50%);  */
       }
     
       .terminal {
@@ -701,9 +664,7 @@ gap: 30px;
 
 }
 
-    /* Para celulares grandes e tablets pequenos */
 @media (max-width: 768px) {
-    /* Estilos para tablets pequenos */
     .remove-items {
         display: none !important;
       } 
@@ -719,7 +680,6 @@ gap: 30px;
 
     .information-contact{
         padding: 20px  10px;
-        /* font-size: 18px !important; */
     }
 
     .contact-section div{
@@ -742,7 +702,7 @@ gap: 30px;
 
     footer p span {
         display: block;
-        margin-top: 5px; /* adiciona um espaçamento opcional entre as linhas */
+        margin-top: 5px;
       }
 
       .about-section .container div{
@@ -759,9 +719,7 @@ gap: 30px;
 
   }
   
-  /* Para tablets grandes */
   @media (max-width: 992px) {
-    /* Estilos para tablets grandes */
 
     .skills-section .container .row{
         row-gap: 50px;
@@ -769,7 +727,6 @@ gap: 30px;
 
     .information-contact{
         padding: 20px  10px;
-        /* font-size: 18px !important; */
     }
 
     .contact-section div{
@@ -790,7 +747,6 @@ gap: 30px;
 
   }
   
-  /* Para notebooks e desktops médios */
   @media (max-width: 1200px) {
     .skills-section .container .row{
         row-gap: 50px;
@@ -800,10 +756,5 @@ gap: 30px;
         gap: 50px; 
        justify-content: center !important;
    }
-  }
-  
-  /* Para desktops grandes */
-  @media (min-width: 1440px) {
-    /* Estilos para desktops grandes */
   }
 

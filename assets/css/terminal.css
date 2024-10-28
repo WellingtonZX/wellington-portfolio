@@ -170,33 +170,16 @@
   backdrop-filter: blur(8px);
   margin: 50px;
 }
-/* 
-.border-animated::before {
-  content: "";
-  position: absolute;
-
-
-  left: -2px;
-  right: -2px;
-
-  transform: translateY(-50%); 
-  border: 2px solid transparent;
-  border-radius: 12px;
-  background: linear-gradient(90deg, #ffd700,#ffd700);
-  background-size: 200% 200%;
-  animation: rotateBorder 10s linear infinite;
-  z-index: 1; 
-} */
 
 .border-animated::before {
   content: "";
   position: absolute;
   width: 1400px;
-  top: 50%; /* Centraliza verticalmente */
+  top: 50%; 
   left: -40px;
   right: -2px;
-  height: 60px; /* Altura desejada */
-  transform: translateY(-50%); /* Centraliza verticalmente com o height reduzido */
+  height: 60px; 
+  transform: translateY(-50%); 
   border: 2px solid transparent;
   border-radius: 12px;
   background: #ffd700;
@@ -258,7 +241,6 @@
   }
 }
 
-/* Para desktops grandes */
 @media (min-width: 1440px) {
 
   .border-animated::before {
@@ -267,8 +249,6 @@
     left: -30px;
     right: 0px;
     height: 80px;
-    /* bottom: 50%; */
-    /* transform: translateY(-50%);  */
   }
 
   .terminal {
@@ -277,12 +257,10 @@
 
  .name-navbar{
  margin: 0;
- /* font-size: 14px; */
  }
 
 }
 
-/* Para desktops grandes */
 @media (min-width: 1440px) {
 
   .border-animated::before {
@@ -291,8 +269,6 @@
     left: -15px;
     right: 0px;
     height: 80px;
-    /* bottom: 50%; */
-    /* transform: translateY(-50%);  */
   }
 
   .terminal {
@@ -301,12 +277,10 @@
 
  .name-navbar{
  margin: 0;
- /* font-size: 14px; */
  }
  
 }
 
-/* Para notebooks e desktops médios */
 @media (max-width: 1200px) {
 
   .border-animated::before {
@@ -315,8 +289,6 @@
     left: -50px;
     right: 0px;
     height: 80px;
-    /* bottom: 50%; */
-    /* transform: translateY(-50%);  */
   }
 
   .terminal {
@@ -325,12 +297,10 @@
 
  .name-navbar{
  margin: 0;
- /* font-size: 14px; */
  }
  
 }
 
-/* Para tablets grandes */
 @media (max-width: 992px) {
 
   .border-animated::before {
@@ -339,8 +309,6 @@
     left: -40px;
     right: 0px;
     height: 80px;
-    /* bottom: 50%; */
-    /* transform: translateY(-50%);  */
   }
 
   .terminal {
@@ -349,14 +317,10 @@
 
  .name-navbar{
  margin: 0;
- /* font-size: 14px; */
  }
  
-
 }
 
-
-  /* Para celulares grandes e tablets pequenos */
 @media (max-width: 768px) {
 
   .border-animated::before {
@@ -365,8 +329,6 @@
     left: -50px;
     right: 0px;
     height: 60px;
-    /* bottom: 50%; */
-    /* transform: translateY(-50%);  */
   }
 
   .terminal {
