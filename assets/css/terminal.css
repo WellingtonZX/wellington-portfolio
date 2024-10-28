@@ -170,19 +170,33 @@
   backdrop-filter: blur(8px);
   margin: 50px;
 }
+/* 
+.border-animated::before {
+  content: "";
+  position: absolute;
+
+
+  left: -2px;
+  right: -2px;
+
+  transform: translateY(-50%); 
+  border: 2px solid transparent;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #ffd700,#ffd700);
+  background-size: 200% 200%;
+  animation: rotateBorder 10s linear infinite;
+  z-index: 1; 
+} */
 
 .border-animated::before {
   content: "";
-  width: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: absolute;
-  top: -2px;
-  left: -2px;
+  width: 1400px;
+  top: 50%; /* Centraliza verticalmente */
+  left: -40px;
   right: -2px;
-  bottom: -2px;
+  height: 60px; /* Altura desejada */
+  transform: translateY(-50%); /* Centraliza verticalmente com o height reduzido */
   border: 2px solid transparent;
   border-radius: 12px;
   background: #ffd700;
@@ -190,6 +204,8 @@
   animation: rotateBorder 10s linear infinite;
   z-index: 1; 
 }
+
+
 
 @keyframes rotateBorder {
   0% {
@@ -241,3 +257,152 @@
     );
   }
 }
+
+/* Para desktops grandes */
+@media (min-width: 1440px) {
+
+  .border-animated::before {
+    width: 102%;
+    top: 30%; 
+    left: -30px;
+    right: 0px;
+    height: 80px;
+    /* bottom: 50%; */
+    /* transform: translateY(-50%);  */
+  }
+
+  .terminal {
+    margin: 40px !important;
+  }
+
+ .name-navbar{
+ margin: 0;
+ /* font-size: 14px; */
+ }
+
+}
+
+/* Para desktops grandes */
+@media (min-width: 1440px) {
+
+  .border-animated::before {
+    width: 102%;
+    top: 30%; 
+    left: -15px;
+    right: 0px;
+    height: 80px;
+    /* bottom: 50%; */
+    /* transform: translateY(-50%);  */
+  }
+
+  .terminal {
+    margin: 40px !important;
+  }
+
+ .name-navbar{
+ margin: 0;
+ /* font-size: 14px; */
+ }
+ 
+}
+
+/* Para notebooks e desktops médios */
+@media (max-width: 1200px) {
+
+  .border-animated::before {
+    width: 1200px;
+    top: 30%; 
+    left: -50px;
+    right: 0px;
+    height: 80px;
+    /* bottom: 50%; */
+    /* transform: translateY(-50%);  */
+  }
+
+  .terminal {
+    margin: 40px !important;
+  }
+
+ .name-navbar{
+ margin: 0;
+ /* font-size: 14px; */
+ }
+ 
+}
+
+/* Para tablets grandes */
+@media (max-width: 992px) {
+
+  .border-animated::before {
+    width: 992px;
+    top: 30%; 
+    left: -40px;
+    right: 0px;
+    height: 80px;
+    /* bottom: 50%; */
+    /* transform: translateY(-50%);  */
+  }
+
+  .terminal {
+    margin: 20px !important;
+  }
+
+ .name-navbar{
+ margin: 0;
+ /* font-size: 14px; */
+ }
+ 
+
+}
+
+
+  /* Para celulares grandes e tablets pequenos */
+@media (max-width: 768px) {
+
+  .border-animated::before {
+    width: 120%;
+    top: 30%; 
+    left: -50px;
+    right: 0px;
+    height: 60px;
+    /* bottom: 50%; */
+    /* transform: translateY(-50%);  */
+  }
+
+  .terminal {
+    margin: 30px !important;
+  }
+
+ .name-navbar{
+ margin: 0;
+ font-size: 14px;
+ }
+
+ .navbar{
+  font-size: 14px;
+ }
+
+}
+
+
+@media (max-width: 480px) {
+
+  .border-animated::before {
+    width: 120%;
+    top: 30%; 
+    left: -20px;
+    right: 0px;
+    height: 60px;
+  }
+
+  .terminal {
+    margin: 10px;
+  }
+  
+
+}
+
+
+
+
+

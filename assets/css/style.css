@@ -2,8 +2,10 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    /* background-color: #000; */
+     background-color: transparent !important; 
     color: #333;
+    width: 100% !important;
+    height: 100% !important;
 }
 
 #background-animated{
@@ -56,14 +58,16 @@ body {
 
 .information-contact{
     padding-left: 100px;
-    font-size: 30px !important;
+    font-size: 25px !important;
     display: flex;
     align-items: start;
     flex-direction: column;
     justify-content: center;
+    color: #fff;
 }
 
 .body-contact{
+    color: #fff;
     border-radius: 40px;
     padding: 40px;
     box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.3),
@@ -91,7 +95,8 @@ body {
 
 .about-section {
     padding: 60px 0;
-    color: #FFffff;
+    color: #ffffff;
+    background: transparent !important;
 }
 
 .about-section img {
@@ -114,9 +119,9 @@ body {
     transform: scale(1.2);
 }
 
-.projects-section {
+/* .projects-section {
     padding: 60px 0;
-}
+} */
 
 .contact-section {
     padding: 60px 0 !important;
@@ -621,3 +626,184 @@ input:-webkit-autofill {
         transform: translateX(0);
     }
 }
+
+@media (max-width: 480px) {
+  
+    .remove-items {
+      display: none !important;
+    }
+
+    .about-section .container div{
+gap: 30px;
+    }
+
+    .about-section .container div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .skills-section .container .row{
+        row-gap: 50px;
+    }
+    .projects-style{
+        row-gap: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .text-white{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .information-contact{
+        padding: 20px  10px;
+        font-size: 18px !important;
+    }
+
+    .contact-section div{
+        margin: 0;
+    }
+
+    .contact-section .row{
+        margin: 0;
+        row-gap: 20px;
+        padding: 10px;
+    }
+
+    .body-contact h2{
+        padding-bottom: 20px;
+    }
+
+    footer p {
+        font-size: 20px !important;
+    }
+
+    footer p span {
+        display: block;
+        margin-top: 5px; /* adiciona um espaçamento opcional entre as linhas */
+      }
+
+      .border-animated::before {
+        width: 480px;
+        top: 30%; 
+        left: -50px;
+        right: 0px;
+        height: 60px;
+        /* bottom: 50%; */
+        /* transform: translateY(-50%);  */
+      }
+    
+      .terminal {
+        margin: 10px;
+      }
+
+}
+
+    /* Para celulares grandes e tablets pequenos */
+@media (max-width: 768px) {
+    /* Estilos para tablets pequenos */
+    .remove-items {
+        display: none !important;
+      } 
+
+    .skills-section .container .row{
+        row-gap: 50px;
+    }
+
+    .projects-style{
+         gap: 50px; 
+        justify-content: center !important;
+    }
+
+    .information-contact{
+        padding: 20px  10px;
+        /* font-size: 18px !important; */
+    }
+
+    .contact-section div{
+        margin: 0;
+    }
+
+    .contact-section .row{
+        margin: 0;
+        row-gap: 20px;
+        padding: 10px;
+    }
+
+    .body-contact h2{
+        padding-bottom: 20px;
+    }
+
+    footer p {
+        font-size: 22px;
+    }
+
+    footer p span {
+        display: block;
+        margin-top: 5px; /* adiciona um espaçamento opcional entre as linhas */
+      }
+
+      .about-section .container div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-section .container div h2{
+        padding: 40px 0;
+    }
+    
+
+
+  }
+  
+  /* Para tablets grandes */
+  @media (max-width: 992px) {
+    /* Estilos para tablets grandes */
+
+    .skills-section .container .row{
+        row-gap: 50px;
+    }
+
+    .information-contact{
+        padding: 20px  10px;
+        /* font-size: 18px !important; */
+    }
+
+    .contact-section div{
+        margin: 0;
+    }
+
+    .contact-section .row{
+        margin: 0;
+        row-gap: 20px;
+        padding: 10px;
+    }
+
+    .body-contact h2{
+        padding-bottom: 20px;
+    }
+
+   
+
+  }
+  
+  /* Para notebooks e desktops médios */
+  @media (max-width: 1200px) {
+    .skills-section .container .row{
+        row-gap: 50px;
+    }
+
+    .projects-style{
+        gap: 50px; 
+       justify-content: center !important;
+   }
+  }
+  
+  /* Para desktops grandes */
+  @media (min-width: 1440px) {
+    /* Estilos para desktops grandes */
+  }
+
