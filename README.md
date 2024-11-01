@@ -18,7 +18,7 @@ O design foi criado com uma estética moderna e um fundo escuro, focando na simp
 ## Autor
 **Wellington Santos**
 
-- [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/wellxngtxn/) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/wellxngtxn/) 
+ [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/wellxngtxn/) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/wellxngtxn/) 
 
 - 📧 E-mail:
 [wellington.santos06@outlook.com](wellington.santos06@outlook.com)
