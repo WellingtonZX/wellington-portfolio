@@ -2,6 +2,7 @@
 
 ## Sobre o Projeto
 Este é o meu portfólio desenvolvido para apresentar meus projetos e habilidades como desenvolvedor web. O objetivo do portfólio é exibir meu trabalho de forma organizada e acessível, permitindo que visitantes conheçam minhas experiências e habilidades. 
+
 Acesse o portfólio aqui: [Portfólio Wellington Santos](https://wellingtonzx.github.io/wellington-portfolio/).
 
 ## Layout do Projeto
