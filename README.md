@@ -1,4 +1,4 @@
-# Portfólio Wellington Santos
+# Portfólio Wellington Santos <img src="assets/img/risos.png"  width="30" style="vertical-align: middle;"/> 
 
 ## Sobre o Projeto
 Este é o meu portfólio desenvolvido para apresentar meus projetos e habilidades como desenvolvedor web. O objetivo do portfólio é exibir meu trabalho de forma organizada e acessível, permitindo que visitantes conheçam minhas experiências e habilidades. 
@@ -6,6 +6,8 @@ Acesse o portfólio aqui: [Portfólio Wellington Santos](https://wellingtonzx.gi
 
 ## Layout do Projeto
 O design foi criado com uma estética moderna e um fundo escuro, focando na simplicidade e clareza, com animações sutis para um toque interativo.
+
+<img src="assets/img/portfolio.png" alt="Layout do Projeto" width="500"/>
 
 ## Tecnologias Utilizadas
 - HTML5
