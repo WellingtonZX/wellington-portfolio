@@ -17,15 +17,16 @@ O design foi criado com uma estética moderna e um fundo escuro, focando na simp
 
 ## Autor
 **Wellington Santos**
-Linkedin:
-https://www.linkedin.com/in/wellxngtxn/
-- [LinkedIn](https://www.linkedin.com/in/wellxngtxn/)  
 
-Instagram:
+- [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/wellxngtxn/)
+- 
 - [Instagram](https://www.instagram.com/wellxngtxn/) 
 
-- 📧 E-mail: [wellington.santos06@outlook.com](wellington.santos06@outlook.com)  
-- 📞 Telefone: [+55 (47) 99159-1468](tel:+5547991591468)
+- 📧 E-mail:
+[wellington.santos06@outlook.com](wellington.santos06@outlook.com)
+
+- 📞 Telefone:
+[+55 (47) 99159-1468](tel:+5547991591468)
 
 
 
