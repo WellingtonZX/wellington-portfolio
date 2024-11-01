@@ -24,8 +24,8 @@ https://www.linkedin.com/in/wellxngtxn/
 Instagram:
 - [Instagram](https://www.instagram.com/wellxngtxn/) 
 
-- 📧 E-mail: [seu-email@outlook.com](wellington.santos06@outlook.com)  
-- 📞 Telefone: [+55 (11) 99999-9999](tel:+55 47 991591468)
+- 📧 E-mail: [wellington.santos06@outlook.com](wellington.santos06@outlook.com)  
+- 📞 Telefone: [+55 (47) 99159-1468](tel:+5547991591468)
 
 
 
